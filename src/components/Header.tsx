@@ -58,10 +58,10 @@ export const Header: React.FC<HeaderProps> = ({ onReset }) => {
                 </span>
               </div>
               <h1 className="text-lg sm:text-xl md:text-2xl font-black tracking-tight text-navy-900 mt-0.5">
-                STOCK ROTATION & PURCHASE HEALTH CALCULATOR
+                STOCK ROTATION & PURCHASE CALCULATOR
               </h1>
               <p className="text-xs text-slate-500 hidden sm:block">
-                Precision inventory velocity, stock coverage days, net movement and sanction credit ceiling analysis.
+                Precision inventory velocity, stock coverage days, and purchase rotation analysis.
               </p>
             </div>
           </div>

@@ -15,7 +15,7 @@ import { AlertCards } from './components/AlertCards';
 import { CoverageVisualizer } from './components/CoverageVisualizer';
 import { BusinessInsightCard } from './components/BusinessInsightCard';
 import { InitialWelcome } from './components/InitialWelcome';
-import { ShieldCheck, Info } from 'lucide-react';
+import { ShieldCheck } from 'lucide-react';
 
 const INITIAL_BRAND_DATA: Record<BrandName, BrandData> = {
   Lenovo: { currentStock: 6.00, purchase: 3.00, sales: 4.00 },
@@ -204,16 +204,12 @@ export function App() {
 
       {/* Enterprise Footer */}
       <footer className="border-t border-slate-200 bg-white py-6 mt-12 text-xs text-slate-500 no-print">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row items-center justify-between gap-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
-            <span className="font-bold text-navy-900">Hardware Management & Sanction Limit Control Suite</span>
+            <span className="font-bold text-navy-900">Stock Rotation & Purchase Calculator Suite</span>
           </div>
-
-          <div className="flex flex-wrap items-center gap-4 sm:gap-6 text-[11px] text-slate-600">
-            <span className="flex items-center gap-1">
-              <Info className="w-3.5 h-3.5 text-slate-500" />
-              Lenovo: ₹7.50 Cr | ASUS: ₹2.50 Cr | Acer: ₹2.00 Cr | HP: ₹3.00 Cr | Dell: ₹1.00 Cr | Total: ₹16.00 Cr
-            </span>
+          <div className="text-slate-400 text-[11px]">
+            Executive Inventory Decision Engine
           </div>
         </div>
       </footer>
